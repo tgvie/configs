@@ -27,8 +27,6 @@ module.exports = {
     'vue'
   ],
   rules: {
-    '@typescript-eslint/comma-dangle': 'off',
-    '@typescript-eslint/semi': 'off',
     'arrow-spacing': ['error', { before: true, after: true }],
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', { allowSingleLine: false }],
@@ -38,7 +36,6 @@ module.exports = {
     indent: ['error', 2, { SwitchCase: 1 }],
     'key-spacing': ['error', { afterColon: true, beforeColon: false }],
     'keyword-spacing': ['error', { before: true }],
-    'max-len': ['error', { code: 120 }],
     'no-console': process.env.PROD ? 'warn' : 'off',
     'no-debugger': process.env.PROD ? 'warn' : 'off',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
@@ -46,7 +43,7 @@ module.exports = {
     'no-unreachable': process.env.PROD ? 'error' : 'warn',
     'no-unused-vars': process.env.PROD ? 'error' : 'warn',
     'object-curly-spacing': ['error', 'always'],
-    quotes: ['error', 'single'],
+    "quotes": ["error", "single", { "avoidEscape": true }],
     semi: ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
     'space-infix-ops': ['error', { int32Hint: false }],
