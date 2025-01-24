@@ -47,5 +47,6 @@ module.exports = {
     semi: ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
     'space-infix-ops': ['error', { int32Hint: false }],
+    "eol-last": ["error", "never"],
   },
 };
