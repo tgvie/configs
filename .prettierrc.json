@@ -8,5 +8,7 @@
   "arrowParens": "avoid",
   "endOfLine": "auto",
   "quoteProps": "consistent",
-  "proseWrap": "never"
+  "proseWrap": "never",
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "off"
 }
