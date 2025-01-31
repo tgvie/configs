@@ -10,5 +10,6 @@
   "quoteProps": "consistent",
   "proseWrap": "never",
   "bracketSpacing": true,
-  "embeddedLanguageFormatting": "off"
+  "embeddedLanguageFormatting": "off",
+  "insertFinalNewLine": "false"
 }
