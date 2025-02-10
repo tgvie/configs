@@ -105,5 +105,9 @@ yarn start
 | ![HTML Validation](---image---) | ![CSS Validation](---image---) |
 </details>
 
+<div align="right">
+  
 ## ✍️ Author/s
 🧑‍💻 [@tgvie](https://github.com/tgvie)
+
+</div>
