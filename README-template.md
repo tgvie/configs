@@ -100,7 +100,7 @@ yarn start
 
 ## 📋 Documentation
 <details>
-<summary><strong>Lighthouse report</strong></summary>
+<summary><strong>Lighthouse Report</strong></summary>
 
 | Desktop | Phone |
 | ------- | ----- |
