@@ -1,5 +1,7 @@
 # ⚙️ My base configs
 
+[![GitHub](https://img.shields.io/badge/README-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvie/configs/blob/main/README-template.md)
+
 [![Git](https://img.shields.io/badge/.gitignore-%23F05033.svg?style=flat-square&logo=git&logoColor=white)](https://github.com/tgvie/configs/blob/main/.gitignore)
 [![Git](https://img.shields.io/badge/Git_Commands-%23F05033.svg?style=flat-square&logo=git&logoColor=white)](https://github.com/tgvie/configs/blob/main/git-commands.md)
 
