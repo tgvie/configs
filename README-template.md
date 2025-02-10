@@ -1,6 +1,18 @@
 # ⭐ Title
 
+**🔗 Demo: ---link---**
+
 *...assignment introduction + requirements*
+
+<details>
+<summary><strong>🧾 Assigment Requirements</strong></summary>
+
+- **1**: ...requirement 1
+- **2**: ...requirement 2
+- **3**: ...requirement 3
+- **4**: ...requirement 4
+- **5**: ...requirement 5
+</details>
 
 <details>
 <summary><strong>📐 Wireframe / Mockup / Prototype</strong></summary>
@@ -33,8 +45,6 @@
 | ---------------- | --------------- | 
 | ![Phone Screenshot Light](---image---) | ![Phone Screenshot Dark](---image---) |
 </details>
-
-**🔗 Demo: ---link---**
 
 ## 🛠️ Tech Stack
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
