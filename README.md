@@ -19,6 +19,7 @@
 [![JWT](https://img.shields.io/badge/jsonconfig.json-black?style=flat-square&logo=JSON%20web%20tokens)](https://github.com/tgvie/configs/blob/main/jsonconfig.json)
 [![JWT](https://img.shields.io/badge/package.json-black?style=flat-square&logo=JSON%20web%20tokens)](https://github.com/tgvie/configs/blob/main/package.json)
 
+[![PNPM](https://img.shields.io/badge/deploy.yml-%234a4a4a.svg?style=flat-square&logo=pnpm&logoColor=f69220)](https://github.com/tgvie/configs/blob/main/deploy.yml)
 [![PNPM](https://img.shields.io/badge/deploy_pnpm.yml-%234a4a4a.svg?style=flat-square&logo=pnpm&logoColor=f69220)](https://github.com/tgvie/configs/blob/main/deploy-pnpm.yml)
 [![PNPM](https://img.shields.io/badge/deploy_static.yml-%234a4a4a.svg?style=flat-square&logo=pnpm&logoColor=f69220)](https://github.com/tgvie/configs/blob/main/deploy-static.yml)
 [![PNPM](https://img.shields.io/badge/deploy_vitepress_pnpm.yml-%234a4a4a.svg?style=flat-square&logo=pnpm&logoColor=f69220)](https://github.com/tgvie/configs/blob/main/deploy-vitepress-pnpm.yml)
