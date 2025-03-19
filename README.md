@@ -25,6 +25,121 @@
 [![PNPM](https://img.shields.io/badge/deploy_vitepress_pnpm.yml-%234a4a4a.svg?style=flat-square&logo=pnpm&logoColor=f69220)](https://github.com/tgvie/configs/blob/main/deploy-vitepress-pnpm.yml)
 
 
+# 🐣 Setup Vite + Vue
+
+```sh
+npm create vite@latest .
+```
+
+1. Choose `Vue`
+2. Choose `Official Vue Starter` *(npm create vue@latest)*
+3. Fill in project name
+4. Choose:
+    - `TypeScript`
+    - `Router`
+    - `Pinia`
+    - `ESLint`
+    - `Prettier`
+
+- Then, run:
+```sh
+npm install
+npm format
+npm dev
+```
+- Open localhost and check if everything's installed correctly
+
+<details>
+<summary>Install Sass or Tailwind</summary>
+  
+- **Sass**
+```sh
+npm i -D sass
+```
+- Change `style.css` to `.scss`
+
+<details>
+<summary><strong>Tailwind</strong></summary>
+  
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+`tailwind.config.js` should look like this
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+- In `style.css` add:
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-800 text-white;
+}
+```
+</details>
+
+- Remove `base.css`, `main.css` in `src/assets`
+- In `src/main.ts`, change CSS-path to the correct one: `import './assets/style.css;`?
+- Restart server with `npm run dev`
+</details>
+
+<details>
+<summary>Remove unused files, like:</summary>
+  
+- `src/assets/base.css`
+- `src/assets/main.css`
+- `src/assets/logo.svg`
+- `src/components/icons`
+- `src/components/HelloWorld.vue`
+- `src/components/TheWelcome.vue`
+- `src/components/WelcomeItem.vue`
+- In `App.vue`, remove the entire `<style>`-tag at the end
+- In `views/HomeView.vue`, remove the import for `TheWelcome` and delete it from `<main>`. Replace with the text `Home` or similar
+</details>
+
+<details>
+<summary><code>vite.config.js</code> should look similar to this:</summary>
+  
+```js
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import path from "path";
+
+export default defineConfig({
+  plugins: [vue()],
+  base: "/", /*link to repo*/
+  resolve: {
+    alias: {
+      /*Use @ instead of ../ in paths*/
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        /*Use variables globally*/
+        additionalData: `@import "@/scss/_variables.scss";`,
+      },
+    },
+  },
+});
+```
+</details>
+
+
 # 🐣 Setup Node/Express/TypeScript
 
 ```sh
