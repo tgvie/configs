@@ -194,3 +194,5 @@ npx tsc --init
 npx tsc --build
 ```
 </details>
+
+🧠 [Alternative](https://kinsta.com/blog/express-typescript/?utm_source=chatgpt.com)
