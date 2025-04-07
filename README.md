@@ -200,3 +200,15 @@ npx tsc --build
 
 # 📋 Checklist
 [Front-End Checklist](https://frontendchecklist.io/)
+
+<details>
+<summary><strong>Clone repo from org to profile</strong></summary>
+
+1. Open project in VS Code
+2. In terminal, type: `git remote remove origin`
+3. Skapa ett nytt tomt repo på GitHub och följ stegen.
+4. In terminal:
+- `git remote add origin git@github.com:tgvie/test.git` *(new repo's link)*
+- `git branch -M main`
+- `git push -u origin main`
+</details>
